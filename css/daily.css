@@ -1,0 +1,44 @@
+.daily-section {
+  margin-top: 30px;
+}
+.daily-section .inner {
+  position: relative;
+  overflow: hidden;
+  overflow-x: scroll;
+  width: 95%;
+  margin: 0 auto;
+  padding: 10px;
+  box-sizing: border-box;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  color: #fff;
+}
+.daily-section .inner .daily-container {
+  display: inline-flex;
+  position: relative;
+}
+.daily-section .inner .daily-container ul {
+  display: inline-flex;
+}
+.daily-section .inner .daily-container ul li {
+  width: 90px;
+  box-sizing: border-box;
+  text-align: center;
+  border-right: 1px dotted #fff;
+}
+.daily-section .inner .daily-container ul li b {
+  display: block;
+  margin: 10px 0;
+  font-size: 0.8em;
+  border-bottom: 1px dotted rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  padding: 5px;
+}
+.daily-section .inner .daily-container ul li b i {
+  margin-right: 8px;
+}
+.daily-section .inner .daily-container ul li img {
+  margin: 0 auto;
+  width: 50px;
+  border-radius: 50%;
+}/*# sourceMappingURL=daily.css.map */

@@ -1,0 +1,34 @@
+.map-section {
+  z-index: 11;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  background: rgb(130, 185, 100);
+  left: 0;
+  top: 0;
+  background: #8ab4f8;
+  transform: translateX(100%);
+  transition: transform 0.6s;
+  &.active {
+    transform: translateX(0%);
+  }
+  #map {
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgba($color: #fff, $alpha: 0.3);
+  } //#map
+  .close-map {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    background: #8ab4f8;
+    color: #fff;
+    font-size: 1.5em;
+    box-shadow: -10px 0 10px rgba($color: #000, $alpha: 0.5);
+  }
+} //map-section
